@@ -38,6 +38,7 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "both",
+    check_elf_files: false,
     vendor: true,
     relative_install_path: "soundfx",
 }
